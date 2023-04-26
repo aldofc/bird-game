@@ -1,0 +1,132 @@
+body{
+    background-color: #73c8a9;
+    font-family: 'press Star 2P' ,curseive;
+    background-image: linear-gradient(to right , #73c8a9 , #373b44 );
+
+}
+
+canvas{
+    width: 25vw;
+    height: 70vh;
+    border: 5px solid #2e2e2e;
+    
+    border-radius: 10px;
+    display: block;
+    margin: 50px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    background-image: url('./assets/bird.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#end-menu{
+    display: block;
+    margin: 1vw auto;
+    width: 13vw;
+    padding: 1vw;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 50%);
+
+}
+
+#score-display{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    background-color: #2e2e2e;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    transition: all 0.25s ease;
+}
+
+button :hover{
+    background-color: #eee;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 858px) {
+
+    canvas{
+        width: 80vw;
+        height: 65vh;
+        border: 5px solid #2e2e2e;
+        
+        border-radius: 10px;
+        display: block;
+        margin: 50px auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+        background-image: url('./assets/bird.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    #end-menu{
+        display: block;
+        margin: 1vw auto;
+        width: 45vw;
+        height: 20vh;
+        padding: 1vw;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1vw;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+        position: absolute;
+        left: 50%;
+        transform: translate(-50% , 50%);
+    
+    }
+}
+
+
+@media (max-width: 420px){
+
+    #end-menu{
+        display: block;
+        margin: 1vw auto;
+        width: 50vw;
+        height: 35vh;
+        padding: 1vw;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1vw;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+        position: absolute;
+        left: 50%;
+        transform: translate(-50% , 50%);
+    
+    }
+
+
+}
+
